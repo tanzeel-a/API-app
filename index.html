@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <title>AQI finder</title>
+    </head>
+    <body>
+        <header>
+            <h1>AQI finder</h1>
+            <button id="search">Search</button>
+        </header>
+
+        <main>
+            <section aria-labelledby="aqi-title">
+                <h2 id="aqi-title">AQI — City Name</h2>
+                <p>Overall AQI: <span id="overall_aqi">—</span></p>
+
+                <div>
+                    <h3>CO</h3>
+                    <pre id="CO">Loading...</pre>
+                </div>
+
+                <div>
+                    <h3>NO2</h3>
+                    <pre id="NO2">Loading...</pre>
+                </div>
+
+                <div>
+                    <h3>O3</h3>
+                    <pre id="O3">Loading...</pre>
+                </div>
+
+                <div>
+                    <h3>PM2.5</h3>
+                    <pre id="PM25">Loading...</pre>
+                </div>
+
+                <div>
+                    <h3>PM10</h3>
+                    <pre id="PM10">Loading...</pre>
+                </div>
+
+                <div>
+                    <h3>SO2</h3>
+                    <pre id="SO2">Loading...</pre>
+                </div>
+            </section>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
